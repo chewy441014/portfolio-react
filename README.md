@@ -6,7 +6,7 @@ View this dynamic webpage showcasing a brief look at my professional endeavors. 
 
 ## Usage
 
-To view the portfolio, simply follow this [link](https://chewy441014.github.io/portfolio/). 
+To view the portfolio, simply follow this [link](https://chewy441014.github.io/portfolio-react/). 
 
 You should find the following: 
 
