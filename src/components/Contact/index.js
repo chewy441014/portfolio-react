@@ -11,8 +11,8 @@ function Contact() {
                     <ul>
                         <li>C: 281 386 7801</li>
                         <li><a href="mailto:Preston.Leon.Hill@gmail.com">Email</a></li>
-                        <li><a href="https://www.linkedin.com/in/hillpreston/">LinkedIn</a></li>
-                        <li><a href="https://github.com/chewy441014">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/hillpreston/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/chewy441014" target="_blank">Github</a></li>
                     </ul>
                 </section>
             </article>
