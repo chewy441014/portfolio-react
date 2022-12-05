@@ -8,7 +8,7 @@ function Resume() {
                 <h1 className="header">Resume</h1>
                 <section className="content">
                     <ul>
-                        <li><a href="../../../public/HillPrestonResume.pdf" target="blank">Resume</a></li>
+                        <li><a href="../../HillPrestonResume.pdf" target="blank">Resume</a></li>
                     </ul>
                 </section>
             </article>
