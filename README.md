@@ -19,5 +19,3 @@ Reset CSS Stylesheet courtesy of Richard Clark @rich_clark.
 ## License
 
 Please see the LICENSE file. 
-
----
