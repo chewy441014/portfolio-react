@@ -1,6 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import assets from '../assets/assets.json';
+import '../styles/project.css';
+import images from '../assets/images';
 
 // import components
 // import SearchCard from '../components/searchcard';
@@ -8,31 +10,23 @@ import assets from '../assets/assets.json';
 const Project = () => {
     // console.log(props.match.params);
     const { id } = useParams();
-    console.log(id)
-    switch (id) {
-        case '01':
-            console.log(id);
-            break;
-        case '02':
-            console.log(id);
-            break;
-        case '03':
-            console.log(id);
-            break;
-        case '04':
-            console.log(id);
-            break;
-        case '05':
-            console.log(id);
-            break;
-        case '06':
-            console.log(id);
-            break;
-    }
+    // console.log(id)
+    // console.log(assets)
+    const projectData = assets.data.filter(project => project.id === id)[0];
+    // console.log(projectData)
     return (
         <div>
-            {/* <SearchCard data={props}/> */}
-            <h1>blah</h1>
+            <h1>{projectData.title}</h1>
+            <div className="d-flex">
+                <div className="header">
+                    <a href={projectData.link} target="_blank"><img className="image" src={images[projectData.image]} />
+                        <p>Click to view deployed project</p></a>
+                </div>
+                <div className="content">
+                    <p>{projectData.description}</p>
+                    <p>{projectData.technologies}</p>
+                </div>
+            </div>
         </div>
     )
 }

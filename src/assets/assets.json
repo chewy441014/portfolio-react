@@ -1,52 +1,52 @@
 {
     "data" : [
         {
-            "id": "01",
+            "id": "03",
             "title": "Code Quiz",
-            "image": "../assets/codequiz/image.png",
+            "image": "cq",
             "description": "This web app is a ten question quiz on Javascript topics, for each wrong answer, 15 seconds is deducted and with a time limit of 75 seconds, this quiz is quite hard. I recommend doing it multiple times. At the end, your score will be recorded with your name or initials, and you can see high scores from anyone who has done the quiz on your web browser! \n \n To use this web app, simply go to the Github pages link and click start or view leaderboard if you'd like to scope out the competition first. If you run out of time, you get a score of zero, if you answer incorrectly and the time deduction reduces the time to zero, you get a score of zero.",
             "link": "https://chewy441014.github.io/Code-Quiz/",
             "technologies": "Javascript, HTML, CSS"
         },
         {
-            "id": "02",
+            "id": "01",
             "title": "Park Picker",
-            "image": "../assets/parkpicker/image.png",
+            "image": "pp",
             "description": "This full stack web app boasts a fully hosted backend, and database. The backend is hosted on Heroku, and the database is hosted by MongoDB Atlas. The webpage utilizes a React front end, Axios API calls, fully integrated user login and signup with options to save results when logged in. \n \n Enter a location and select an activity (camping, hiking, swimming, etc...) to view the closest parks where that activity is available. After searching, the 10 closest National Parks where the chosen activity is available are displayed. Click on the resulting park cards to view more information, including a driving route, park details and forecast. Link to the deployed app on heroku.",
             "link": "https://park-picker-react.herokuapp.com/",
             "technologies": "Javascript, National Parks API, Mapquest API, Weatherbit API, Express, Node, Apollo, GraphQL, MongoDB, JWT, React, Mongoose, Bootstrap, Heroku"
         },
         {
-            "id": "03",
+            "id": "02",
             "title": "Note Taker",
-            "image": "../assets/notestracker/image.png",
+            "image": "nt",
             "description": "View, create and delete notes in this simple web app, hosted on Github and Heroku. To create a new note, click the plus in the top right. To save a note, press the save button in the top right, and to view a note, click the note on the left, and the note will be displayed.",
             "link": "https://notes-tracker-preston.herokuapp.com/",
             "technologies": "Node, Express, Javascript"
         },
         {
-            "id": "04",
+            "id": "06",
             "title": "Social Media Backend",
-            "image": "../assets/socialmediadb/image.png",
+            "image": "sm",
             "description": "This is a MongoDB, Express and Node backend designed to mimic a social network. There are users, who can make posts and reactions to those posts.",
             "link": "https://github.com/chewy441014/social-media-backend",
             "technologies": "Node, Express, MongoDB, Javascript"
         },
         {
-            "id": "05",
+            "id": "04",
             "title": "Tech Blog",
-            "image": "../assets/techblog/image.png",
-            "description": "",
-            "link": "",
-            "technologies": ""
+            "image": "tb",
+            "description": "A full stack web app which allows users to communicate in a blog like format. Hosted on Heroku. The tech blog utilizes MVC (Model, View, Controller), to structure the development files. It also integrates a hosted database to store users, posts, and comments using MySQL and JawsDB hosting service.",
+            "link": "https://tech-blog-preston.herokuapp.com/",
+            "technologies": "Javascript, Jquery, Bootstrap, Handlebars, Sequilize, MySQL, Node, Express, Heroku"
         },
         {
-            "id": "06",
-            "title": "Park Picker",
-            "image": "../assets/travelweather/image.png",
-            "description": "",
-            "link": "",
-            "technologies": ""
+            "id": "05",
+            "title": "Travel Weather Check",
+            "image": "tw",
+            "description": "This web app allows you to search for a five day forecast in any city. Utilizing jQuery, the webpage is dynamically updated with data from a weather API based on the user's input. Using localstorage, a search history column is generated in real time based on user input. \n \n Search on the left for the five day forecast and current weather of a city. Hit enter or click the search button. The search is saved underneath the search bar and you can click it to see up to date weather info for that city again.",
+            "link": "https://chewy441014.github.io/Travel-Weather-Check/",
+            "technologies": "Javascript, JQuery, Bootstrap, AJAX"
         }
     ]
 }
