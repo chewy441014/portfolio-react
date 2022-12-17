@@ -1,21 +1,29 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import About from './components/About';
-import Work from './components/Work';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import Home from './pages/Home';
+import Project from './pages/Project';
+
 import './styles/universal.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <main>
-      <About/>
-      <Work/>
-      <Contact/>
-      <Resume/>
-      </main>
+      <Router>
+        <Navbar />
+        <main>
+          <Routes>
+            <Route 
+              path="/"
+              element={<Home/>}
+            />
+            <Route 
+              path="/project/:id"
+              element={<Project />}
+            />        
+          </Routes>
+        </main>
+      </Router>
     </div>
   );
 }
