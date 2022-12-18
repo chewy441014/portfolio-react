@@ -16,6 +16,8 @@ You should find the following:
 
 Reset CSS Stylesheet courtesy of Richard Clark @rich_clark.
 
+Photo for Social Media Backend Card by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/wallpapers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 ## License
 
 Please see the LICENSE file. 
