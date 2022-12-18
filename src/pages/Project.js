@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import assets from '../assets/assets.json';
 import '../styles/project.css';
@@ -8,25 +8,42 @@ import images from '../assets/images';
 // import SearchCard from '../components/searchcard';
 
 const Project = () => {
-    // console.log(props.match.params);
+
     const { id } = useParams();
-    // console.log(id)
-    // console.log(assets)
     const projectData = assets.data.filter(project => project.id === id)[0];
-    // console.log(projectData)
+    const [isHiddenPop, setIsHiddenPop] = useState(true);
+
+    const handleMouseEnter = () => {
+        setIsHiddenPop(false)
+    }
+
+    const handleMouseExit = () => {
+        setIsHiddenPop(true)
+    }
+
     return (
         <div>
-            <h1>{projectData.title}</h1>
-            <div className="d-flex">
-                <div className="header">
-                    <a href={projectData.link} target="_blank"><img className="image" src={images[projectData.image]} />
-                        <p>Click to view deployed project</p></a>
-                </div>
-                <div className="content">
-                    <p>{projectData.description}</p>
-                    <p>{projectData.technologies}</p>
+            <div className="contain">
+                <h1>{projectData.title}</h1>
+                <div className="contain-center">
+                    <div className="projectimg">
+                        <a href={projectData.link} target="_blank" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
+                            <img className="image" src={images[projectData.image]} />
+                            <div className={isHiddenPop ? "hide-details2" : "show-details2"}>Click for Details!</div>
+                        </a>
+                    </div>
+                    <div className="projectdesc">
+                        <p>{projectData.description}</p>
+                        <p className="technologyp">Technologies Used:</p>
+                        <ul className="technology">
+                            {projectData.technologies.map((elem) =>
+                                <li key={elem}>{elem}</li>
+                            )}
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <figure className="backgimg"></figure>
         </div>
     )
 }

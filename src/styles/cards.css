@@ -26,15 +26,11 @@
 .cards figure p {
     position: relative;
     text-align: left;
-    padding: 20px 20px;
+    padding: 20px 5px 20px 20px;
     top: 200px;
     background-color: var(--color2);
     width: 40%;
     filter: blur(0);
-}
-
-.cards figure p:hover {
-    box-shadow: inset 0px 0px 0px white, 0px 0px 15px white;
 }
 
 .card {
@@ -68,6 +64,26 @@
     filter: blur(1px);
 }
 
+.card6 {
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.52) 15%, transparent 45%), url("../../public/card6.jpg");
+    filter: blur(1px);
+}
+
 #card1 {
     flex: 1 1 100%;
+}
+
+.hide-details {
+    display: none;
+}
+
+.show-details {
+    position: relative;
+    text-align: left;
+    padding: 20px 5px 20px 20px;
+    top: 0px;
+    background-color: var(--color1);
+    width: 40%;
+    filter: blur(0);
+    font-size: 20px;
 }
