@@ -13,11 +13,11 @@ function App() {
         <main>
           <Routes>
             <Route 
-              path="/"
+              path="/portfolio-react"
               element={<Home/>}
             />
             <Route 
-              path="/project/:id"
+              path="/portfolio-react/project/:id"
               element={<Project />}
             />        
           </Routes>
