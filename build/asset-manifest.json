@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeca314b.css",
-    "main.js": "/static/js/main.838de9ca.js",
-    "static/media/card3.jpg": "/static/media/card3.2a2ca55210e8d5d309de.jpg",
-    "static/media/card4.jpg": "/static/media/card4.0810cf109e2dbfeeba94.jpg",
-    "static/media/card1.jpg": "/static/media/card1.972d167b12542508ff5f.jpg",
-    "static/media/parkpicker.png": "/static/media/parkpicker.5b2cdc4c60d6b0e2a1de.png",
-    "static/media/background.jpg": "/static/media/background.89f64827c92925684df5.jpg",
-    "static/media/card2.jpg": "/static/media/card2.809ce148234ccff4ab74.jpg",
-    "static/media/card5.jpg": "/static/media/card5.f71afc3b6d601ef4598a.jpg",
-    "static/media/socialmediadb.png": "/static/media/socialmediadb.90620dda872063eb1412.png",
-    "static/media/HillPrestonResume.pdf": "/static/media/HillPrestonResume.227fda48877164ed7cc9.pdf",
-    "static/media/travelweather.png": "/static/media/travelweather.e8201aed2a8daa2cda93.png",
-    "static/media/card6.jpg": "/static/media/card6.ba3106d96e7799f816b9.jpg",
-    "static/media/codequiz.png": "/static/media/codequiz.4d045313725e1f0f0c97.png",
-    "static/media/techblog.png": "/static/media/techblog.67a87f6bbcf6dacc3bf1.png",
-    "static/media/notestracker.png": "/static/media/notestracker.29bbfb6f628383a6ae99.png",
-    "index.html": "/index.html",
-    "main.eeca314b.css.map": "/static/css/main.eeca314b.css.map",
-    "main.838de9ca.js.map": "/static/js/main.838de9ca.js.map"
+    "main.css": "/portfolio-react/static/css/main.cc58e932.css",
+    "main.js": "/portfolio-react/static/js/main.f18532d3.js",
+    "static/media/card3.jpg": "/portfolio-react/static/media/card3.2a2ca55210e8d5d309de.jpg",
+    "static/media/card4.jpg": "/portfolio-react/static/media/card4.0810cf109e2dbfeeba94.jpg",
+    "static/media/card1.jpg": "/portfolio-react/static/media/card1.972d167b12542508ff5f.jpg",
+    "static/media/parkpicker.png": "/portfolio-react/static/media/parkpicker.5b2cdc4c60d6b0e2a1de.png",
+    "static/media/background.jpg": "/portfolio-react/static/media/background.89f64827c92925684df5.jpg",
+    "static/media/card2.jpg": "/portfolio-react/static/media/card2.809ce148234ccff4ab74.jpg",
+    "static/media/card5.jpg": "/portfolio-react/static/media/card5.f71afc3b6d601ef4598a.jpg",
+    "static/media/socialmediadb.png": "/portfolio-react/static/media/socialmediadb.90620dda872063eb1412.png",
+    "static/media/HillPrestonResume.pdf": "/portfolio-react/static/media/HillPrestonResume.227fda48877164ed7cc9.pdf",
+    "static/media/travelweather.png": "/portfolio-react/static/media/travelweather.e8201aed2a8daa2cda93.png",
+    "static/media/card6.jpg": "/portfolio-react/static/media/card6.ba3106d96e7799f816b9.jpg",
+    "static/media/codequiz.png": "/portfolio-react/static/media/codequiz.4d045313725e1f0f0c97.png",
+    "static/media/techblog.png": "/portfolio-react/static/media/techblog.67a87f6bbcf6dacc3bf1.png",
+    "static/media/notestracker.png": "/portfolio-react/static/media/notestracker.29bbfb6f628383a6ae99.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.cc58e932.css.map": "/portfolio-react/static/css/main.cc58e932.css.map",
+    "main.f18532d3.js.map": "/portfolio-react/static/js/main.f18532d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeca314b.css",
-    "static/js/main.838de9ca.js"
+    "static/css/main.cc58e932.css",
+    "static/js/main.f18532d3.js"
   ]
 }
