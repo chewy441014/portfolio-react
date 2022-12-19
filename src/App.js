@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 
 import './styles/universal.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
