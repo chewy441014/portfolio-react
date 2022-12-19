@@ -24,27 +24,27 @@ function Work() {
                 <h1 className="header">Work</h1>
                 <section className="content">
                     <div className="cards">
-                        <a href="/project/01" target="blank" id="card1"><figure className="card1 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
+                        <a href="/project/01" id="card1"><figure className="card1 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
                             <p>Park Picker</p>
                             <div className={isHidden[0] ? "hide-details" : "show-details"}>Click for Details!</div>
                         </figure></a>
-                        <a href="/project/02" target="blank"><figure className="card2 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
+                        <a href="/project/02"><figure className="card2 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
                             <p>Note Taker</p>
                             <div className={isHidden[1] ? "hide-details" : "show-details"}>Click for Details!</div>
                         </figure></a>
-                        <a href="/project/03" target="blank"><figure className="card3 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
+                        <a href="/project/03"><figure className="card3 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
                             <p>Code Quiz</p>
                             <div className={isHidden[2] ? "hide-details" : "show-details"}>Click for Details!</div>
                         </figure></a>
-                        <a href="/project/04" target="blank"><figure className="card4 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
+                        <a href="/project/04"><figure className="card4 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
                             <p>Tech Blog</p>
                             <div className={isHidden[3] ? "hide-details" : "show-details"}>Click for Details!</div>
                         </figure></a>
-                        <a href="/project/05" target="blank"><figure className="card5 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
+                        <a href="/project/05"><figure className="card5 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
                             <p>Travel Weather Check</p>
                             <div className={isHidden[4] ? "hide-details" : "show-details"}>Click for Details!</div>
                         </figure></a>
-                        <a href="/project/06" target="blank"><figure className="card6 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
+                        <a href="/project/06"><figure className="card6 card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
                             <p>Social Media Backend</p>
                             <div className={isHidden[5] ? "hide-details" : "show-details"} >Click for Details!</div>
                         </figure></a>

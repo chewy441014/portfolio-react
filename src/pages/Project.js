@@ -25,6 +25,7 @@ const Project = () => {
         <div>
             <div className="contain">
                 <h1>{projectData.title}</h1>
+                <p>{projectData.collab}</p>
                 <div className="contain-center">
                     <div className="projectimg">
                         <a href={projectData.link} target="_blank" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseExit}>
@@ -34,12 +35,26 @@ const Project = () => {
                     </div>
                     <div className="projectdesc">
                         <p>{projectData.description}</p>
+                        <>&nbsp;</>
+                        <p>Click the image on the left to view the deployed site! Click <a href={projectData.repo}>this link</a> to view the repo!</p>
                         <p className="technologyp">Technologies Used:</p>
                         <ul className="technology">
                             {projectData.technologies.map((elem) =>
                                 <li key={elem}>{elem}</li>
                             )}
                         </ul>
+                        <>&nbsp;</>
+                        {projectData.collab === "Team Project" ? 
+                                <>
+                                <p>Team Members:</p>
+                                <ul className="technology">
+                                    {projectData.teammates.map((member) => 
+                                    <li key={member}>{member}</li>
+                                    )}
+                                </ul>
+                                </>
+                                :
+                                <>&nbsp;</>}
                     </div>
                 </div>
             </div>

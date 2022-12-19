@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0366c688.css",
-    "main.js": "/static/js/main.61186671.js",
+    "main.css": "/static/css/main.eeca314b.css",
+    "main.js": "/static/js/main.838de9ca.js",
     "static/media/card3.jpg": "/static/media/card3.2a2ca55210e8d5d309de.jpg",
     "static/media/card4.jpg": "/static/media/card4.0810cf109e2dbfeeba94.jpg",
     "static/media/card1.jpg": "/static/media/card1.972d167b12542508ff5f.jpg",
@@ -12,15 +12,16 @@
     "static/media/socialmediadb.png": "/static/media/socialmediadb.90620dda872063eb1412.png",
     "static/media/HillPrestonResume.pdf": "/static/media/HillPrestonResume.227fda48877164ed7cc9.pdf",
     "static/media/travelweather.png": "/static/media/travelweather.e8201aed2a8daa2cda93.png",
+    "static/media/card6.jpg": "/static/media/card6.ba3106d96e7799f816b9.jpg",
     "static/media/codequiz.png": "/static/media/codequiz.4d045313725e1f0f0c97.png",
     "static/media/techblog.png": "/static/media/techblog.67a87f6bbcf6dacc3bf1.png",
     "static/media/notestracker.png": "/static/media/notestracker.29bbfb6f628383a6ae99.png",
     "index.html": "/index.html",
-    "main.0366c688.css.map": "/static/css/main.0366c688.css.map",
-    "main.61186671.js.map": "/static/js/main.61186671.js.map"
+    "main.eeca314b.css.map": "/static/css/main.eeca314b.css.map",
+    "main.838de9ca.js.map": "/static/js/main.838de9ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.0366c688.css",
-    "static/js/main.61186671.js"
+    "static/css/main.eeca314b.css",
+    "static/js/main.838de9ca.js"
   ]
 }
