@@ -6,7 +6,7 @@ function Navbar() {
 
     const navigate = useNavigate();
     const home = () => {
-        navigate('/portfolio-react');
+        navigate('/');
     }
     return (
         <div>
