@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: '',
-  title: '',
+  homepage: 'https://preston-hill-portfolio.herokuapp.com/',
+  title: 'Preston Hill Portfolio',
 }
 
 const about = {
@@ -29,44 +29,44 @@ const projects = [
     livePreview: 'https://park-picker-react.herokuapp.com/',
   },
   {
-    name: 'Park Picker',
+    name: 'Note Taker',
     description:
-      'Finding resources in one place for planning camping, hiking or other trips to the US National Parks can be a challenge, so we created Park Picker to give National Parks, weather data, and directions in once place. This full stack web app boasts a fully hosted backend, and database. The backend is hosted on Heroku, and the database is hosted by MongoDB Atlas. The webpage utilizes a React front end, Axios API calls, fully integrated user login and signup with options to save results when logged in. Enter a location and select an activity (camping, hiking, swimming, etc...) to view the closest parks where that activity is available. After searching, the 10 closest National Parks where the chosen activity is available are displayed. Click on the resulting park cards to view more information, including a driving route, park details and forecast. During this project, my role was Full Stack Web Developer integrating the front and back end together, setting up the express server, routes, building several components and structuring the project.',
-    stack: ["Javascript", "National Parks API", "Mapquest API", "Weatherbit API", "Express", "Node", "Apollo", "GraphQL", "MongoDB", "JWT", "React", "Mongoose", "Bootstrap", "Heroku"],
-    sourceCode: 'https://github.com/chewy441014/park-picker',
-    livePreview: 'https://park-picker-react.herokuapp.com/',
+      'View, create and delete notes in this simple web app, hosted on Heroku. To create a new note, click the plus in the top right. To save a note, press the save button in the top right, and to view a note, click the note on the left, and the note will be displayed.',
+    stack: ["Node", "Express", "Javascript"],
+    sourceCode: 'https://github.com/chewy441014/notes-tracker',
+    livePreview: 'https://notes-tracker-preston.herokuapp.com/',
   },
   {
-    name: 'Park Picker',
+    name: 'Code Quiz',
     description:
-      'Finding resources in one place for planning camping, hiking or other trips to the US National Parks can be a challenge, so we created Park Picker to give National Parks, weather data, and directions in once place. This full stack web app boasts a fully hosted backend, and database. The backend is hosted on Heroku, and the database is hosted by MongoDB Atlas. The webpage utilizes a React front end, Axios API calls, fully integrated user login and signup with options to save results when logged in. Enter a location and select an activity (camping, hiking, swimming, etc...) to view the closest parks where that activity is available. After searching, the 10 closest National Parks where the chosen activity is available are displayed. Click on the resulting park cards to view more information, including a driving route, park details and forecast. During this project, my role was Full Stack Web Developer integrating the front and back end together, setting up the express server, routes, building several components and structuring the project.',
-    stack: ["Javascript", "National Parks API", "Mapquest API", "Weatherbit API", "Express", "Node", "Apollo", "GraphQL", "MongoDB", "JWT", "React", "Mongoose", "Bootstrap", "Heroku"],
-    sourceCode: 'https://github.com/chewy441014/park-picker',
-    livePreview: 'https://park-picker-react.herokuapp.com/',
+      "This quiz will help you polish your vanilla Javascript and jQuery knowledge. It is a web app with ten questions on Javascript topics, for each wrong answer, 15 seconds is deducted and with a time limit of 75 seconds, this quiz is quite hard. I recommend doing it multiple times. At the end, your score will be recorded with your name or initials, and you can see high scores from anyone who has done the quiz on your web browser! To use this web app, simply go to the Github pages link and click start or view leaderboard if you'd like to scope out the competition first. If you run out of time, you get a score of zero, if you answer incorrectly and the time deduction reduces the time to zero, you get a score of zero.",
+    stack: ["Javascript", "HTML", "CSS"],
+    sourceCode: 'https://github.com/chewy441014/Code-Quiz',
+    livePreview: 'https://chewy441014.github.io/Code-Quiz/',
   },
   {
-    name: 'Park Picker',
+    name: 'Tech Blog',
     description:
-      'Finding resources in one place for planning camping, hiking or other trips to the US National Parks can be a challenge, so we created Park Picker to give National Parks, weather data, and directions in once place. This full stack web app boasts a fully hosted backend, and database. The backend is hosted on Heroku, and the database is hosted by MongoDB Atlas. The webpage utilizes a React front end, Axios API calls, fully integrated user login and signup with options to save results when logged in. Enter a location and select an activity (camping, hiking, swimming, etc...) to view the closest parks where that activity is available. After searching, the 10 closest National Parks where the chosen activity is available are displayed. Click on the resulting park cards to view more information, including a driving route, park details and forecast. During this project, my role was Full Stack Web Developer integrating the front and back end together, setting up the express server, routes, building several components and structuring the project.',
-    stack: ["Javascript", "National Parks API", "Mapquest API", "Weatherbit API", "Express", "Node", "Apollo", "GraphQL", "MongoDB", "JWT", "React", "Mongoose", "Bootstrap", "Heroku"],
-    sourceCode: 'https://github.com/chewy441014/park-picker',
-    livePreview: 'https://park-picker-react.herokuapp.com/',
+      'Share your professional ideas on this blog style forum! This full stack web app which allows users to communicate in a blog like format. Hosted on Heroku, the tech blog utilizes MVC (Model, View, Controller) to structure the development files. It also integrates a hosted database to store users, posts, and comments using MySQL and JawsDB hosting service.',
+    stack: ["Javascript", "Jquery", "Bootstrap", "Handlebars", "Sequilize", "MySQL", "Node", "Express", "Heroku"],
+    sourceCode: 'https://github.com/chewy441014/tech-blog',
+    livePreview: 'https://tech-blog-preston.herokuapp.com/',
   },
   {
-    name: 'Park Picker',
+    name: 'Travel Weather Check',
     description:
-      'Finding resources in one place for planning camping, hiking or other trips to the US National Parks can be a challenge, so we created Park Picker to give National Parks, weather data, and directions in once place. This full stack web app boasts a fully hosted backend, and database. The backend is hosted on Heroku, and the database is hosted by MongoDB Atlas. The webpage utilizes a React front end, Axios API calls, fully integrated user login and signup with options to save results when logged in. Enter a location and select an activity (camping, hiking, swimming, etc...) to view the closest parks where that activity is available. After searching, the 10 closest National Parks where the chosen activity is available are displayed. Click on the resulting park cards to view more information, including a driving route, park details and forecast. During this project, my role was Full Stack Web Developer integrating the front and back end together, setting up the express server, routes, building several components and structuring the project.',
-    stack: ["Javascript", "National Parks API", "Mapquest API", "Weatherbit API", "Express", "Node", "Apollo", "GraphQL", "MongoDB", "JWT", "React", "Mongoose", "Bootstrap", "Heroku"],
-    sourceCode: 'https://github.com/chewy441014/park-picker',
-    livePreview: 'https://park-picker-react.herokuapp.com/',
+    "This web app allows you to search for a five day forecast in any city. Utilizing jQuery, the webpage is dynamically updated with data from a weather API based on the user's input. Using localstorage, a search history column is stored and generated in real time based on user input. Search on the left for the five day forecast and current weather of a city. Hit enter or click the search button. The search is saved underneath the search bar and you can click it to see up to date weather info for that city again.",
+    stack: ["Javascript", "JQuery", "Bootstrap", "AJAX"],
+    sourceCode: 'https://github.com/chewy441014/Travel-Weather-Check',
+    livePreview: 'https://chewy441014.github.io/Travel-Weather-Check/',
   },
   {
-    name: 'Park Picker',
+    name: 'Social Media Backend',
     description:
-      'Finding resources in one place for planning camping, hiking or other trips to the US National Parks can be a challenge, so we created Park Picker to give National Parks, weather data, and directions in once place. This full stack web app boasts a fully hosted backend, and database. The backend is hosted on Heroku, and the database is hosted by MongoDB Atlas. The webpage utilizes a React front end, Axios API calls, fully integrated user login and signup with options to save results when logged in. Enter a location and select an activity (camping, hiking, swimming, etc...) to view the closest parks where that activity is available. After searching, the 10 closest National Parks where the chosen activity is available are displayed. Click on the resulting park cards to view more information, including a driving route, park details and forecast. During this project, my role was Full Stack Web Developer integrating the front and back end together, setting up the express server, routes, building several components and structuring the project.',
-    stack: ["Javascript", "National Parks API", "Mapquest API", "Weatherbit API", "Express", "Node", "Apollo", "GraphQL", "MongoDB", "JWT", "React", "Mongoose", "Bootstrap", "Heroku"],
-    sourceCode: 'https://github.com/chewy441014/park-picker',
-    livePreview: 'https://park-picker-react.herokuapp.com/',
+    "Connecting with friends and family over the internet is an important part of building and maintaining relationships. This social media backend sets up the database and server for a website to accomplish this goal. This is a MongoDB, Express and Node backend designed to mimic a social network. There are users, who can make posts and reactions to those posts.",
+    stack: ["Node", "Express", "MongoDB", "Javascript"],
+    sourceCode: 'https://github.com/chewy441014/social-media-backend',
+    livePreview: 'https://github.com/chewy441014/social-media-backend',
   },
 ]
 
