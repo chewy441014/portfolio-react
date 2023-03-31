@@ -31,3 +31,10 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.project__button {
+  padding: 5px;
+  margin: 15px;
+  color: var(--clr-primary);
+  border: 2px solid var(--clr-primary);
+}

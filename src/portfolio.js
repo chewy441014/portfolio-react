@@ -83,6 +83,7 @@ const skills = [
   'Git',
   'Python',
   'Matlab',
+  'Azure Fundamentals'
 ]
 
 const contact = {
