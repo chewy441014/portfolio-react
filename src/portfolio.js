@@ -10,7 +10,7 @@ const about = {
   role: 'Full Stack Web Developer',
   description:
     'Full Stack Web Dev with experience in the MERN stack and JavaScript through the UT Austin Coding Bootcamp. With a background in mechanical engineering, I have ample experience with analytic problem solving, team projects and mechanical design. My recent work experiences have polished my communication, customer service, time management and learning ability both at Anton Paar and Starship Technology. During my first month at Starship, I pushed the Houston location to 100% robot health. At Anton Paar, I regularly provided consultations to peers when they were in the field and in need of root cause analysis and deeper technical knowledge. Finally, during the UT Austin Coding Bootcamp, one of the projects I contributed to was a website which can coordinate national parks data, location data, directions and weather data in a convenient format for planning nature outings; feel free to reach out for details. With these experiences and skills I have helped bring dozens of team projects to fruition, in undergrad, grad school, during employment and during the UT Austin Coding Bootcamp.',
-  resume: 'https://chewy441014.github.io/portfolio-react/Hill_Preston_Resume(1).pdf',
+  resume: 'https://chewy441014.github.io/portfolio-react/Hill_Preston_Resume_Web_Dev.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/hillpreston/',
     github: 'https://github.com/chewy441014',
@@ -61,12 +61,11 @@ const projects = [
     livePreview: 'https://chewy441014.github.io/Travel-Weather-Check/',
   },
   {
-    name: 'Social Media Backend',
-    description:
-    "Connecting with friends and family over the internet is an important part of building and maintaining relationships. This social media backend sets up the database and server for a website to accomplish this goal. This is a MongoDB, Express and Node backend designed to mimic a social network. There are users, who can make posts and reactions to those posts.",
-    stack: ["Node", "Express", "MongoDB", "Javascript"],
-    sourceCode: 'https://github.com/chewy441014/social-media-backend',
-    livePreview: 'https://github.com/chewy441014/social-media-backend',
+    name: 'Lewis Wholesale Co Landing Page',
+    description: "This is a Next.js based landing page for Lewis Wholesale Co. ™️ created by hand. I used a simple design, so that information about the company and services are easy to grasp and easy to see. This was my first project using both Next.js and Tailwind CSS and both are effective tools for web development.",
+    stack: ["Next.js", "Tailwind CSS", "Javascript", "NPM"],
+    sourceCode: 'https://github.com/chewy441014/lewis_wholesale',
+    livePreview: 'https://github.com/chewy441014/lewis_wholesale',
   },
 ]
 
