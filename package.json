@@ -1,7 +1,7 @@
 {
   "name": "Preston Hill Portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://chewy441014.github.io/portfolio-react/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
